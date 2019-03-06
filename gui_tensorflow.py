@@ -154,7 +154,7 @@ class Window(Frame):
         print ('Entry:', test_X )
 
 
-        df = pd.read_csv('C:/Users/Bharat purohit/Desktop/export.csv')
+        df = pd.read_csv('data/Desktop/export.csv')
         data_ = df.drop(['ID','Species'], axis=1)
 
 
